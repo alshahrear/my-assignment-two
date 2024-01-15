@@ -1,0 +1,128 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px;
+    align-items: center;
+}
+
+.red {
+    color: #FF5400;
+}
+
+.happy {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.list {
+    display: flex;
+
+}
+
+.a-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #424247;
+}
+
+.red-home {
+    color: #FF5400;
+}
+
+.travel-info {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    margin: 0 100px;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80))
+}
+
+.content-travel h1 {
+    margin-left: 180px;
+    margin-left: 300px;
+    padding-top: 150px;
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.content-travel p {
+    margin-left: 280px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.input {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 340px;
+    padding: 10px;
+    border: 20px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.where {
+    border: 50px;
+    background-color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.when {
+    border: 50px;
+    background-color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.select-type {
+    border: 50px;
+    background-color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.find {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FF5400;
+    padding: 10px 20px;
+}
