@@ -126,3 +126,299 @@ nav ul a {
     background: #FF5400;
     padding: 10px 20px;
 }
+
+.content-mountain {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.Popular {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.text-mountain {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    width: 577px;
+    margin-left: 100px;
+}
+
+.content-mountain ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 95px;
+}
+
+.down-content {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 55px;
+}
+
+.btn-read {
+    border: 10px 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 100px;
+}
+
+.img-mountain {
+    border-radius: 16px;
+    width: 450px;
+    height: 390px;
+    margin-top: 50px;
+}
+
+.choose {
+    margin-top: 50px;
+}
+
+.h-choose {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 400px;
+}
+
+.p-choose {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 300px;
+}
+
+.Handpicked {
+    color: #131318;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.p-hotel {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.service {
+    color: #131318;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.p-service {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.flex-container {
+    display: flex;
+    gap: 130px;
+    margin-top: 50px;
+}
+
+.sec-hotel {
+    margin-left: 150px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+
+.sec-service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+}
+
+.h-Price {
+    color: #131318;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.p-Price {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.Price-container {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+}
+
+.h-Perfect {
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.p-Perfect {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Perfect-container li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-perfect {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+.Perfect-container {
+    margin-left: 150px;
+
+}
+
+.bd-mountain {
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.grp-img {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+}
+
+.watch {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 40px;
+}
+.tips-container{
+    padding: 15px;
+}
+.new-container {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.daily {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 2px solid #1313181A;
+    padding-bottom: 15px;
+}
+
+.name {
+    color: rgba(19, 19, 24, 0.30);
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px;
+    padding-right: 90px;
+    
+}
+
+.email {
+    margin-top: 10px;
+    color: rgba(19, 19, 24, 0.30);
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px;
+    padding-right: 90px;
+}
+
+.btn-sub {
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.save-mountain {
+    display: flex;
+    margin-top: 50px;
+}
+
+.tips-container {
+    margin-left: 150px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.save-up {
+    margin-left: 200px;
+}
+
+.img-rec {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+}
+
+.img-rec-container {
+    margin-top: 5px;
+}
+
+.travel-save {
+    
+    background-repeat: no-repeat;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 5px 30px;
+    text-align: center;
+    margin-top: -110px;
+    position: relative;
+    transform: rotate(-19.628deg);
+    margin-left: 970px;
+}
+
+.tra-container {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.save-to {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 800;
+}
