@@ -1,7 +1,7 @@
 * {
-    /* margin: 0; */
-    /* padding: 0; */
-    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
@@ -13,7 +13,7 @@ body {
 .head {
     display: flex;
     justify-content: space-between;
-    margin: 30px 40px;
+    margin: 50px 80px;
     align-items: center;
 }
 
@@ -55,20 +55,26 @@ nav ul a {
 .travel-info {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    margin: 0 100px;
-    width: 1170px;
-    height: 500px;
+    margin: 0 70px;
+    width: 1200px;
+    height: 520px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80))
 }
 
 .content-travel h1 {
-    margin-left: 180px;
+    margin-bottom: 30px;
     margin-left: 300px;
     padding-top: 150px;
     color: #FFF;
     font-size: 55px;
     font-weight: 800;
+}
+
+.travel-blog {
+    text-align: center;
+    margin-right: 300px;
+    margin-bottom: 50px;
 }
 
 .content-travel p {
@@ -96,8 +102,11 @@ nav ul a {
     background-color: #FFF;
     font-size: 15px;
     font-weight: 400;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
+    padding: 10px 10px;
+
+
 }
 
 .when {
@@ -105,8 +114,9 @@ nav ul a {
     background-color: #FFF;
     font-size: 15px;
     font-weight: 400;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 5px;
+    color: rgba(19, 19, 24, 0.50);
 }
 
 .select-type {
@@ -114,30 +124,31 @@ nav ul a {
     background-color: #FFF;
     font-size: 15px;
     font-weight: 400;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
+    color: rgba(19, 19, 24, 0.50);
 }
 
-.find {
+.now-find {
+    padding: 10px 20px;
+    background-color: #FF5400;
+    border-radius: 5px;
     color: #FFF;
     font-size: 15px;
     font-weight: 700;
-    border-radius: 5px;
-    background: #FF5400;
-    padding: 10px 20px;
 }
 
 .content-mountain {
     display: flex;
     margin-top: 50px;
-    margin-left: 100px;
+
 }
 
 .Popular {
     color: #131318;
-    text-align: center;
+    margin-left: 70px;
     font-size: 40px;
-
+    margin-bottom: 20px;
 }
 
 .text-mountain {
@@ -145,7 +156,8 @@ nav ul a {
     font-size: 16px;
     font-weight: 400;
     width: 577px;
-    margin-left: 100px;
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 
 .content-mountain ul li {
@@ -153,31 +165,74 @@ nav ul a {
     font-size: 16px;
     font-weight: 400;
     margin-left: 95px;
+    margin-bottom: 10px;
 }
 
 .down-content {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
-    margin-left: 55px;
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 
 .btn-read {
     border: 10px 20px;
-    border-radius: 8px;
+    border-radius: 5px;
     background: #FF5400;
     color: #FFF;
-    padding: 10px;
+    padding: 5px 15px;
     font-size: 15px;
     font-weight: 800;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .img-mountain {
     border-radius: 16px;
-    width: 450px;
+    width: 550px;
     height: 390px;
+    margin-left: 70px;
+    margin-right: 80px;
+
+}
+
+.h-Destination {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.p-Destination {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.mal-ind {
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
     margin-top: 50px;
+}
+
+.sri-north-kash {
+    display: flex;
+    gap: 35px;
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+.ban-img {
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+    margin-left: 70px;
 }
 
 .choose {
@@ -188,33 +243,41 @@ nav ul a {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
-    margin-left: 400px;
+    margin-left: 500px;
+    
 }
 
 .p-choose {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
-    margin-left: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+.div-price{
+    margin-left: 70px;
 }
 
 .Handpicked {
     color: #131318;
     font-size: 18px;
     font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .p-hotel {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
-
 }
 
 .service {
     color: #131318;
     font-size: 18px;
     font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .p-service {
@@ -225,40 +288,47 @@ nav ul a {
 
 .flex-container {
     display: flex;
-    gap: 130px;
     margin-top: 50px;
 }
 
 .sec-hotel {
-    margin-left: 150px;
+    margin-left: 70px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 20px;
+    padding-right: 50px;
 }
 
 .sec-service {
+    margin-right: 80px;
+    margin-left: 400px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 20px;
+    padding-right: 50px;
 }
 
 .h-Price {
     color: #131318;
     font-size: 18px;
     font-weight: 800;
+    padding-left: 5px;
 }
 
 .p-Price {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 450;
+    padding: 10px 5px;
 }
-
+.best-price-con{
+    padding-left: 5px;
+}
 .Price-container {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 450px;
     margin-top: 30px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -276,9 +346,13 @@ nav ul a {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
 .Perfect-container li {
+    margin-left: 40px;
     color: #131318;
     font-size: 16px;
     font-weight: 700;
@@ -290,12 +364,12 @@ nav ul a {
     font-weight: 800;
     border-radius: 8px;
     background: #FF5400;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 5px 10px;
 }
 
 .Perfect-container {
-    margin-left: 150px;
+    margin-left: 70px;
 
 }
 
@@ -309,6 +383,7 @@ nav ul a {
     width: 450px;
     height: 300px;
     position: absolute;
+    margin-right: 100px;
 }
 
 .watch {
@@ -323,6 +398,7 @@ nav ul a {
 
 .tips-container {
     padding: 15px;
+    margin-left: 70px;
 }
 
 .new-container {
@@ -378,7 +454,7 @@ nav ul a {
 }
 
 .tips-container {
-    margin-left: 150px;
+
     border-radius: 16px;
     border: 1px solid #FF5400;
 }
@@ -389,12 +465,14 @@ nav ul a {
 
 .img-rec {
     width: 500px;
-    height: 350px;
+    height: 270px;
     position: absolute;
 }
 
 .img-rec-container {
     margin-top: 5px;
+    margin-left: 190px;
+    margin-right: 80px;
 }
 
 .travel-save {
@@ -406,10 +484,10 @@ nav ul a {
     background: #FF5400;
     padding: 5px 30px;
     text-align: center;
-    margin-top: -110px;
+    margin-top: -78px;
     position: relative;
     transform: rotate(-19.628deg);
-    margin-left: 970px;
+    margin-left: 1080px;
 }
 
 .tra-container {
@@ -449,19 +527,26 @@ nav ul a {
     font-weight: 800;
     margin-left: 30px;
 }
-.p-foot{
-    margin-left: 350px;
+
+.p-foot {
+    margin-left: 50px;
     color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
-.img-foot{
+
+.img-foot {
     margin-left: 360px;
     border-bottom: 2px solid rgba(19, 19, 24, 0.10);
     margin-right: 260px;
     padding-left: 240px;
+    padding-bottom: 20px;
 }
-.rights-foot{
+
+.rights-foot {
     margin-left: 600px;
     padding-bottom: 30px;
     padding-top: 30px;
